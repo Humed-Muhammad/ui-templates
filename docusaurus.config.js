@@ -57,9 +57,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "My Site",
+        title: "Open Template",
         logo: {
-          alt: "My Site Logo",
+          alt: "Open Template Logo",
           src: "img/logo.svg",
         },
         items: [
@@ -67,7 +67,7 @@ const config = {
             type: "doc",
             docId: "intro",
             position: "left",
-            label: "Tutorial",
+            label: "Templates",
           },
           { to: "/blog", label: "Blog", position: "left" },
           {
@@ -127,6 +127,7 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
+  themes: ["@docusaurus/theme-live-codeblock"],
 };
 
 module.exports = config;
